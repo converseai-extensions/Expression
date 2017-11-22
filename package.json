@@ -1,0 +1,19 @@
+{
+  "name": "expression",
+  "description": "A simple plugin for evaluating expressions.",
+  "main": "plugin.js",
+  "author": "graeme@converse.ai",
+  "scripts": {
+    "test": "mocha test/plugin-test.js 'test/**/*-test.js'"
+  },
+  "dependencies": {
+    "@converseai/plugins-sdk": "latest"
+  },
+  "devDependencies": {
+    "body-parser": "1.18.2",
+    "chai": "4.1.2",
+    "express": "4.16.1",
+    "mocha": "4.0.0",
+    "supertest": "3.0.0"
+  }
+}

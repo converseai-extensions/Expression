@@ -1,0 +1,46 @@
+{
+  "name": "expression",
+  "displayName": "Expression",
+  "description": "A simple plugin for evaluating expressions.",
+  "category": "",
+  "documentLink": "",
+  "needsOAuth": false,
+  "providerData": [],
+  "module": [
+    {
+      "id": "simple_expression",
+      "name": "Simple Expression",
+      "description": "Evaluate a one line expression. E.g. `1 + 2` will return 3.",
+      "hasReturn": true,
+      "param": [
+        {
+          "param": "input",
+          "displayName": "Input",
+          "description": "The expression to evaluate.",
+          "type": "TEXT",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "simple_condition",
+      "name": "Simple Condition",
+      "description": "Evaluate a simple expression and reroute path accoridingly.",
+      "hasReturn": true,
+      "exits": [
+        "True",
+        "False"
+      ],
+      "param": [
+        {
+          "param": "input",
+          "displayName": "Input",
+          "description": "The expression to evaluate.",
+          "type": "TEXT",
+          "optional": false
+        }
+      ]
+    }
+  ],
+  "hasOAuth": false
+}
