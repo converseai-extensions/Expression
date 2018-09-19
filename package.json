@@ -7,7 +7,8 @@
     "test": "mocha test/plugin-test.js 'test/**/*-test.js'"
   },
   "dependencies": {
-    "@converseai/plugins-sdk": "latest"
+    "@converseai/plugins-sdk": "latest",
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "body-parser": "1.18.2",

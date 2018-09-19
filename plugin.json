@@ -40,6 +40,28 @@
           "optional": false
         }
       ]
+    },
+    {
+      "id": "advanced_expression",
+      "name": "Advanced Expression",
+      "description": "Evaluate a multi-line expression with dynamic variables.",
+      "hasReturn": true,
+      "param": [
+        {
+          "param": "input",
+          "displayName": "Input",
+          "description": "The expression to evaluate.",
+          "type": "TEXT",
+          "optional": false
+        },
+        {
+          "param": "vars",
+          "displayName": "Variables",
+          "description": "A map of variables and their values.",
+          "type": "MAP",
+          "optional": true
+        }
+      ]
     }
   ],
   "hasOAuth": false
